@@ -1,2 +1,2 @@
-# geo-data-salaries
-Python scripts for collecting job market data for geoanalytics and analysis
+# geo-data-salaries-gorod-rabot
+Python script for collecting salary data from Gorod Rabot based on a list of cities in Excel
