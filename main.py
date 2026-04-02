@@ -313,9 +313,9 @@ def main():
     print("Колонки в файле:", df_cities.columns.tolist())
     columns = list(df_cities.columns)
 
-    city_col = find_col(columns, "населен", "Населенный пункт")
-    region_col = find_col(columns, "регион", "Регион РФ")
-    url_col = find_col(columns, "город работ", "Город работ")
+    city_col = "Города"
+    region_col = "Субъект РФ"
+    url_col = "Город работ"
 
     print("Используем колонки:")
     print("  Населенный пункт ->", city_col)
