@@ -207,11 +207,17 @@ marimo/_lsp/
 __marimo__/
 
 # Project-specific files
+
+# Cache
 gorodrabot_cache.json
 cache/
 
 # Output files
 gorodrabot_salaries.xlsx
 
-# Input files with local/internal data
+# Local input files
 Города для расчета ЗП.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
